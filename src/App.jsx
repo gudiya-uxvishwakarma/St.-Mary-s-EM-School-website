@@ -9,7 +9,6 @@ import Career from './Components/Career.jsx';
 import Navbar from './Components/Navbar.jsx'
 import AboutUs from './Components/AboutUs.jsx'
 import VisionMission from './Components/VisionMission.jsx'
-import Team from './Components/Team.jsx'
 import MD from './Components/MD.jsx'
 import Admissions from './Components/Admissions.jsx';
 import Curriculum from './Components/Academics/Curriculum';
@@ -22,7 +21,7 @@ import Contact from './Components/Contact';
 import Blog from './Components/Blog';
 import BlogPost from './Components/BlogPost';
 import Campus from './Components/Campus.jsx';
-import Sports from './Components/Sports.jsx';
+
 
 import ScrollToTop from './Components/ScrollToTop';
 
@@ -36,7 +35,6 @@ function AnimatedRoutes() {
         <Route path='Career' element={<Career />} />
         <Route path='/AboutUs' element={<AboutUs/>} />
         <Route path='/VisionMission' element={<VisionMission />} />
-        <Route path='/Team' element={<Team />} />
         <Route path='/MD' element={<MD />} />
         <Route path='/Admissions' element={<Admissions />} />
         <Route path='/academics/curriculum' element={<Curriculum />} />
@@ -49,7 +47,7 @@ function AnimatedRoutes() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogPost />} />
         <Route path="/campus" element={<Campus/>} />
-        <Route path="/sports" element={<Sports />} />
+       
        
       </Routes>
     </AnimatePresence>
