@@ -1,12 +1,6 @@
 import React from 'react';
 import Nav from '../Nav';
 import Footer from '../Footer';
-import img1 from '../images/ppssports1.jpg';
-import img2 from '../images/ppssports2.jpg';
-import img3 from '../images/ppssports3.jpg';
-import img4 from '../images/ppssports4.jpg';
-import img5 from '../images/ppssports5.jpg';
-import img6 from '../images/ppssports6.jpg';
 export default function Curriculum() {
     return (
         <div>

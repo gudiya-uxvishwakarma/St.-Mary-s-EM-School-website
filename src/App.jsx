@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-route
 import { AnimatePresence } from 'framer-motion'
 import Career from './Components/Career.jsx';
 import Navbar from './Components/Navbar.jsx'
-import ParentPortal from './Components/Images/ParentPortal .jsx'
 import AboutUs from './Components/AboutUs.jsx'
 import VisionMission from './Components/VisionMission.jsx'
 import Team from './Components/Team.jsx'
@@ -35,7 +34,6 @@ function AnimatedRoutes() {
       <Routes location={location} key={location.pathname}>
         <Route path='/' element={<Navbar />} />
         <Route path='Career' element={<Career />} />
-        <Route path='/ParentPortal' element={<ParentPortal />} />
         <Route path='/AboutUs' element={<AboutUs/>} />
         <Route path='/VisionMission' element={<VisionMission />} />
         <Route path='/Team' element={<Team />} />

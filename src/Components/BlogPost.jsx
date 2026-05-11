@@ -4,11 +4,6 @@ import Nav from './Nav';
 import Footer from './Footer';
 import { motion } from 'framer-motion';
 
-import campusImage from '../Components/Images/sciexb.jpg';
-import tips from '../Components/Images/excursion.jpg';
-import sports from '../Components/Images/spiritual classes.jpg';
-import cultural from '../Components/Images/compititions.jpg';
-
 import {
     Breadcrumb,
     BreadcrumbItem,

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import name from './Images/Admissions.jpg';
+
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -12,9 +12,6 @@ import {
 import Nav from './Nav';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
-
-import a1 from './Images/iB-EYP.webp';
-import a2 from './Images/shutterstock_674310433.jpg';
 
 export default function VisionMission() {
   return (

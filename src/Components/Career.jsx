@@ -1,5 +1,4 @@
 import React from 'react'
-import name from './Images/Admissions.jpg';
 import {
     Breadcrumb,
     BreadcrumbItem,

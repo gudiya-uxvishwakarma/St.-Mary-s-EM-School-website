@@ -1,5 +1,5 @@
 import React from 'react'
-import name from './Images/Admissions.jpg';
+// import name from './Images/Admissions.jpg';
 import {
     Breadcrumb,
     BreadcrumbItem,
@@ -11,7 +11,6 @@ import {
 import Nav from './Nav';
 import { Link, useNavigate } from 'react-router-dom';
 import Footer from './Footer';
-import MD from './Images/MD-website.jpg';
 
 export default function Team() {
 
